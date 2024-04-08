@@ -1,5 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:400,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:var(--text-xs-medium-font-weight)");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -16,4 +16,19 @@ button:focus-visible {
 }
 a {
   text-decoration: none;
+}
+@font-face {
+  font-family: "Mission Gothic-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5d3c8b34afd3edd5b08a6b6c/Mission Gothic Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk-SemiBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/63e973589e512caa3c3973c8/fonts/aktivgrotesk_trial_sbd.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk-Medium";
+  src: url("https://anima-uploads.s3.amazonaws.com/5b8ea46f3a173f000a8617db/AktivGrotesk-Medium.otf") format("opentype");
 }
