@@ -1,0 +1,325 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3090px;
+}
+
+.desktop .overlap {
+  position: relative;
+  height: 3196px;
+  background-image: url(./img/header-5b.png);
+  background-size: 100% 100%;
+}
+
+.desktop .overlap-group {
+  position: absolute;
+  width: 1440px;
+  height: 1262px;
+  top: 616px;
+  left: 0;
+}
+
+.desktop .testimonial {
+  position: absolute;
+  width: 1440px;
+  height: 552px;
+  top: 0;
+  left: 0;
+  background-color: #f7f8f9;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 1440px;
+  height: 346px;
+  top: 116px;
+  left: 0;
+}
+
+.desktop .pattern-dark {
+  height: 320px;
+  background-color: var(--gray-900);
+  position: absolute;
+  width: 1440px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.desktop .radial-wrapper {
+  height: 1320px;
+  background-image: url(./img/frame-16.svg);
+  background-size: 100% 100%;
+}
+
+.desktop .radial {
+  width: 1440px;
+  height: 682px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(7, 42, 121, 0) 0%, rgb(42, 51, 66) 100%);
+}
+
+.desktop .frame {
+  position: absolute;
+  width: 1140px;
+  height: 144px;
+  top: 88px;
+  left: 150px;
+}
+
+.desktop .group {
+  position: relative;
+  width: 626px;
+  height: 108px;
+  top: 15px;
+  left: 258px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 624px;
+  top: 0;
+  left: 0;
+  font-family: "Mission Gothic-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--white-900);
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.desktop .BG-wave {
+  position: absolute;
+  width: 1440px;
+  height: 31px;
+  top: 315px;
+  left: 0;
+}
+
+.desktop .img {
+  position: absolute;
+  width: 1440px;
+  height: 55px;
+  top: 61px;
+  left: 0;
+}
+
+.desktop .rich-text {
+  position: absolute;
+  width: 1440px;
+  height: 804px;
+  top: 458px;
+  left: 0;
+  background-color: var(--white-900);
+}
+
+.desktop .overlap-2 {
+  position: relative;
+  height: 804px;
+}
+
+.desktop .pattern-light {
+  height: 804px;
+  background-color: var(--gray-050);
+  position: absolute;
+  width: 1440px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.desktop .div-wrapper {
+  background-image: url(./img/frame-16-1.svg);
+  height: 1320px;
+  background-size: 100% 100%;
+}
+
+.desktop .radial-2 {
+  width: 1440px;
+  height: 804px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(247, 248, 249, 0) 0%, rgb(247, 248, 249) 100%);
+}
+
+.desktop .badge {
+  display: inline-flex;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 4px 12px;
+  position: absolute;
+  top: 88px;
+  left: 150px;
+  background-color: #dd2821;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px #6951ff0d;
+}
+
+.desktop .text {
+  width: fit-content;
+  font-family: "Hanley Pro-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--white-900);
+  font-size: 18px;
+  line-height: 18px;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.desktop .p {
+  top: 131px;
+  font-family: "Mission Gothic-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--gray-900);
+  font-size: 36px;
+  letter-spacing: -0.72px;
+  line-height: 40px;
+  position: absolute;
+  width: 554px;
+  left: 150px;
+}
+
+.desktop .text-wrapper-2 {
+  top: 241px;
+  font-family: "Aktiv Grotesk-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #2b2929;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  width: 554px;
+  left: 150px;
+}
+
+.desktop .flexcontainer {
+  height: 479px;
+  top: 325px;
+  left: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  width: 554px;
+}
+
+.desktop .span-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Aktiv Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2828;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.desktop .span {
+  font-family: "Aktiv Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2828;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.desktop .flexcontainer-2 {
+  height: 470px;
+  top: 241px;
+  left: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  position: absolute;
+  width: 554px;
+}
+
+.desktop .text-2 {
+  align-self: stretch;
+  font-family: "Aktiv Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2929;
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.desktop .text-wrapper-3 {
+  font-family: "Aktiv Grotesk-Medium", Helvetica;
+  font-weight: 500;
+  color: #2b2929;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.desktop .how-it-works {
+  position: absolute;
+  width: 1440px;
+  height: 932px;
+  top: 1884px;
+  left: 0;
+}
+
+.desktop .footer {
+  position: absolute;
+  width: 1440px;
+  height: 380px;
+  top: 2816px;
+  left: 0;
+  background-color: var(--white-900);
+}
+
+.desktop .overlap-3 {
+  position: relative;
+  height: 380px;
+}
+
+.desktop .overlap-group-wrapper {
+  position: absolute;
+  width: 1440px;
+  height: 380px;
+  top: 0;
+  left: 0;
+  background-color: var(--gray-050);
+  overflow: hidden;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  top: -470px;
+  background-image: url(./img/frame-16-2.svg);
+  height: 1320px;
+  background-size: 100% 100%;
+}
+
+.desktop .radial-3 {
+  position: relative;
+  width: 1440px;
+  height: 380px;
+  top: 470px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
+.desktop .line {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 226px;
+  left: 0;
+  object-fit: cover;
+}
