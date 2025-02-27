@@ -98,16 +98,11 @@
     </div>
     <style type='text/css'>
 	.embeddedServiceHelpButton .helpButton .uiButton {
-		background-color: #072A79;
-		font-family: "Salesforce Sans", sans-serif;
+		background-color: #005290;
+		font-family: "Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline: 1px solid #072A79;
-	}
-	@font-face {
-		font-family: 'Salesforce Sans';
-		src: url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),
-		url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype');
+		outline: 1px solid #005290;
 	}
 </style>
 
@@ -136,17 +131,17 @@
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 
 		embedded_svc.init(
-			'https://resilient-narwhal-e55jjk-dev-ed.trailblaze.my.salesforce.com',
-			'https://resilient-narwhal-e55jjk-dev-ed.trailblaze.my.salesforce-sites.com/liveAgentSetupFlow',
+			'https://resourceful-moose-eq4fr8-dev-ed.trailblaze.my.salesforce.com',
+			'https://resourceful-moose-eq4fr8-dev-ed.trailblaze.my.site.com/ESWChattyTest1739999563665vforcesite',
 			gslbBaseURL,
-			'00Daj000004DXdN',
-			'Chat_Team',
+			'00Dbm0000080f6Z',
+			'Chat_with_Support_Team',
 			{
-				baseLiveAgentContentURL: 'https://c.la1-core1.sfdc-8tgtt5.salesforceliveagent.com/content',
-				deploymentId: '572aj0000034yrt',
-				buttonId: '573aj000000ksDV',
-				baseLiveAgentURL: 'https://d.la1-core1.sfdc-8tgtt5.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Chat_Team',
+				baseLiveAgentContentURL: 'https://c.la11-core1.sfdc-yfeipo.salesforceliveagent.com/content',
+				deploymentId: '572bm000004rSCr',
+				buttonId: '573bm000001Nf8O',
+				baseLiveAgentURL: 'https://d.la11-core1.sfdc-yfeipo.salesforceliveagent.com/chat',
+				eswLiveAgentDevName: 'Chat_with_Support_Team',
 				isOfflineSupportEnabled: true
 			}
 		);
@@ -154,7 +149,7 @@
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
-		s.setAttribute('src', 'https://resilient-narwhal-e55jjk-dev-ed.trailblaze.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+		s.setAttribute('src', 'https://resourceful-moose-eq4fr8-dev-ed.trailblaze.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
 		};
